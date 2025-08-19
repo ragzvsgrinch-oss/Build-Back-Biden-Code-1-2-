@@ -448,7 +448,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Dan Bryan"
+campaignTrail_temp.credits = "Credits"
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -511,14 +511,15 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#700016",
-    "windowColor": "#BFE6FF",
-    "containerColor": "#FFFFFF",
-    "innerWindowColor": "#E8FBFF",
-    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
-    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "headerColor": "#146090",
+    "windowColor": "#285877",
+    "containerColor": "#194c6b",
+    "innerWindowColor": "#395f9d",
+    "bannerImageUrl": "https://i.imgur.com/GFVdHph.png",
+    "backgroundImageUrl": "https://images.axios.com/bFQD5uv8-ICsenFqH2OCa2pfIXs=/0x420:4200x2783/1920x1080/2019/04/30/1556622787582.jpg",
     "endingTextColor": "#000000",
-    "customQuote": ""
+    "customQuote": "Lets Finish The Job!",
+    "gameTitle": "Build Back Biden!"
 }
 
 //#startcode
@@ -736,7 +737,7 @@ var soundtracks = {
     name: "Everywhere at the End of Time",
     tracklist: [
       {
-        "name": "I copied this music player from 2000N so that's why these songs are random. We'll replace them in a bit.",
+        "name": "The Caretaker - A1; It's Just a Burning Memory",
         "url": "https://cdn.discordapp.com/attachments/810034515334004766/1074235127300898837/a1.mp3"
       },
       {
@@ -787,20 +788,23 @@ var soundtracks = {
 
 newMusicPlayer()
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+corrr = '\n              <h2>Build Back Biden!</h2><font id="wittyquote" size="4" color="white"><em>Lets Finish The Job!</em></font>\n            ';
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#146090";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#285877";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#FFFFFF";
+$(".container")[0].style.backgroundColor = "#194c6b";
 
-document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+document.getElementById("header").src = "https://i.imgur.com/GFVdHph.png";
 
-document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+document.body.background = "https://images.axios.com/bFQD5uv8-ICsenFqH2OCa2pfIXs=/0x420:4200x2783/1920x1080/2019/04/30/1556622787582.jpg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#395f9d!important;}</style>";
 
 //#endcode
