@@ -1,4 +1,4 @@
-
+RecReading = true
    campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -74,7 +74,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Delaware",
             "priority": 1,
-            "description": "President Joe Biden enters 2024 under a cloud of doubts about age and health. Voters scrutinize stamina, on camera sharpness, and command presence. Republicans say foreign leaders do not take him seriously, point to the chaotic Afghanistan withdrawal, stubborn prices, and an open border, and argue that Bidenomics weakened household budgets. Progressives fault him for being too cautious, condemn support for Israel during the Gaza war, and warn of lost enthusiasm among young and Latino voters. Ukraine aid divides the middle, with fatigue over costs and duration. His case for reelection rests on jobs created, unemployment near historic lows, a factory and infrastructure boom, cheaper insulin and Medicare drug negotiations, major clean energy and semiconductor investments, and steady alliances that rallied to Ukraine. Can these achievements outweigh concerns about health, costs, and competence long enough to assemble a winning coalition in 2024?",
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>President Biden had hoped for steadier days, a chance to guide America with calm and purpose. Instead, Gaza burns, Ukraine bleeds, protests erupt, and his party fractures, leaving him surrounded by doubt. Every victory feels fragile, every choice weighed by unseen threats. Once, Amtrak Joe steered the nation through plague and upheaval, securing wins on healthcare, jobs, and climate. Now those victories feel distant, drowned out by war abroad and bitter division at home, as uncertainty creeps into every corner of his coalition. Yet he cannot yield, not to the swarm of foes,  not to Kameltoe, not to Dean Phillips, and not to that damned upstart trading on his accomplished father's name. Like a king pressed on every side, Biden braces for the struggle ahead, resolved to see it through until the Lord Himself calls him home. 1968 will not repeat. The end draws near. Only one hill remains.President Biden has carried the staff through storm and trial, while his people wander in dubiety and weariness. Ahead lies the desert, winds howling with voices that seek to scatter the flock. Yet he must press on, for the summit is within reach.</p></div>",
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
