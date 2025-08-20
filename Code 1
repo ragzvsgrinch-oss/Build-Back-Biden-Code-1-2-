@@ -1,3 +1,23 @@
+campaignTrail_temp.achievements = {
+    "Party Insider" : {
+        "image" : "https://i.imgur.com/hzxKXUC.png",
+        "description" : "Get maximum relationship with the Democratic Party"
+    },
+    "MAGA Joe" : {
+        "image" : "https://i.imgur.com/1aNPnm9.png",
+        "description" : "achieve the lowest possible relationship with the Democrats"
+    },
+"Biden v. Trump" : {
+        "image" : "https://i.imgur.com/ItUGFVm.png",
+        "description" : "Win the election while losing the popular vote."
+    },
+    "Let's Finish The Job!" : {
+        "image" : "https://i.imgur.com/FphWvh7.png",
+        "description" : "As Joe Biden, win.",
+        "cannotBeCheated" : true
+    }
+}
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
