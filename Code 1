@@ -538,7 +538,7 @@ jet_data = {
     "bannerImageUrl": "https://i.imgur.com/GFVdHph.png",
     "backgroundImageUrl": "https://images.axios.com/bFQD5uv8-ICsenFqH2OCa2pfIXs=/0x420:4200x2783/1920x1080/2019/04/30/1556622787582.jpg",
     "endingTextColor": "#000000",
-    "customQuote": "Lets Finish The Job!",
+    "customQuote": "Let’s Finish The Job!",
     "gameTitle": "Build Back Biden!"
 }
 
@@ -640,10 +640,10 @@ function setupMusicPlayer() {
   playlist = new Playlist();
 
   const song1 = new Song(
-    "This music player is taken from 2016 Class War which explains the placeholder songs, Feel free to change these.",
-    "Themccain",
-    "h",
-    "c"
+    "Careful",
+    "Paramore",
+    "https://i.imgur.com/VVdmmYx.png",
+    "https://files.catbox.moe/ku01cu.mp3"
   );
   
   const song2 = new Song(
@@ -1009,7 +1009,7 @@ var changeGameDisp = (hide) => {
 e.creditsPage = () => {
   credits_html = `
     <h3>Coding</h3>
-    <p><font color='#65bc6d'>DecstarG#4326</font></p>
+    <p><font color='#65bc6d'>This is the credits screen, customize this how you want.</font></p>
     <h3>Writing</h3>
     <p><font color='#b665bc'>Mocha#0096</font></p>
     <p><font color='#d3cc3d'>DecstarG#4326</font><p>
